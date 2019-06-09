@@ -1,0 +1,61 @@
+scikit-learn comes with a few small standard datasets that do not require to download any file from some external website.
+
+load_boston([return_X_y]) 	Load and return the boston house-prices dataset (regression).
+load_iris([return_X_y]) 	Load and return the iris dataset (classification).
+load_diabetes([return_X_y]) 	Load and return the diabetes dataset (regression).
+load_digits([n_class, return_X_y]) 	Load and return the digits dataset (classification).
+load_linnerud([return_X_y]) 	Load and return the linnerud dataset (multivariate regression).
+load_wine([return_X_y]) 	Load and return the wine dataset (classification).
+load_breast_cancer([return_X_y]) 	Load and return the breast cancer wisconsin dataset (classification).
+
+
+
+5.7 The Olivetti faces dataset
+
+This dataset contains a set of face images
+
+sklearn.datasets.fetch_olivetti_faces
+
+
+5.8. The 20 newsgroups text dataset
+
+sklearn.datasets.fetch_20newsgroups
+
+
+5.11. Forest covertypes
+
+The samples in this dataset correspond to 30×30m patches of forest in the US, collected for the task of predicting each patch’s cover type, i.e. the dominant species of tree. There are seven covertypes, making this a multiclass classification problem. Each sample has 54 features.
+
+sklearn.datasets.fetch_covtype
+
+
+5.12. RCV1 dataset
+
+Reuters Corpus Volume I (RCV1)
+
+sklearn.datasets.fetch_rcv1
+
+
+5.13. Boston House Prices dataset
+
+
+5.14. Breast Cancer Wisconsin (Diagnostic) Database
+
+
+5.15. Diabetes dataset
+
+
+5.16. Optical Recognition of Handwritten Digits Data Set
+
+
+5.17. Iris Plants Database
+
+
+5.18. Linnerrud dataset
+
+The Linnerud dataset constains two small dataset:
+
+    exercise: A list containing the following components: exercise data with 20 observations on 3 exercise variables: Weight, Waist and Pulse.
+
+    physiological: Data frame with 20 observations on 3 physiological variables:
+        Chins, Situps and Jumps.
